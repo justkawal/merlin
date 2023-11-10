@@ -1,5 +1,5 @@
 name: merlin
-description: A starting point for Dart libraries or applications.
+description: Merlin is a STROBE-based transcript construction for zero-knowledge proofs.
 version: 1.0.1
 repository: https://github.com/justkawal/merlin
 
