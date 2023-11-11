@@ -1,6 +1,6 @@
 name: merlin
 description: Merlin is a STROBE-based transcript construction for zero-knowledge proofs.
-version: 1.0.1
+version: 1.0.2
 repository: https://github.com/justkawal/merlin
 
 environment:
