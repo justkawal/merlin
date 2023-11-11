@@ -2,7 +2,7 @@
 [Merlin](https://merlin.cool) is a [STROBE](https://strobe.sourceforge.io/)-based transcript construction for zero-knowledge proofs.
 It automates the [Fiat-Shamir](https://en.wikipedia.org/wiki/Fiat–Shamir_heuristic) transform, so that by using Merlin, non-interactive protocols can be implemented as if they were interactive.
 
-[![codecov](https://codecov.io/gh/justkawal/strobe/graph/badge.svg?token=8FERML02AR)](https://codecov.io/gh/justkawal/merlin)
+[![codecov](https://codecov.io/gh/justkawal/merlin/graph/badge.svg?token=8FERML02AR)](https://codecov.io/gh/justkawal/merlin)
 [![Licence](https://img.shields.io/badge/License-MIT-red.svg)](./LICENSE)
 ![GitHub contributors](https://img.shields.io/github/contributors/justkawal/merlin)
 [![Github Repo Stars](https://img.shields.io/github/stars/justkawal/merlin)](https://github.com/justkawal/merlin/stargazers)
