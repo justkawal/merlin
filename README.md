@@ -15,9 +15,9 @@ It automates the [Fiat-Shamir](https://en.wikipedia.org/wiki/Fiat–Shamir_heuri
   // Simple Transcript
   final transcript = Transcript('test protocol');
 
-  transcript.appendMessage(Uint8List.fromList(utf8.encode('some label')), Uint8List.fromList(utf8.encode('some data')));
+  transcript.appendMessage(utf8.encode('some label'), utf8.encode('some data'));
 
-  final cBytes = transcript.extractBytes(Uint8List.fromList(utf8.encode('challenge')), 32);
+  final cBytes = transcript.extractBytes(utf8.encode('challenge'), 32);
 
   // cHex = d5a21972d0d5fe320c0d263fac7fffb8145aa640af6e9bca177c03c7efcf0615
   final cHex = hex.encode(cBytes);
