@@ -1,13 +1,13 @@
 name: merlin
 description: Merlin is a STROBE-based transcript construction for zero-knowledge proofs.
-version: 1.0.2
+version: 1.0.3
 repository: https://github.com/justkawal/merlin
 
 environment:
   sdk: ^3.1.5
 
 dependencies:
-  strobe: ^1.0.2
+  strobe: ^1.0.4
 
 dev_dependencies:
   convert: ^3.1.1

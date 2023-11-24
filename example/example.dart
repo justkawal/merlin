@@ -9,11 +9,9 @@ void main() {
     //Simple Transcript
     final mt = Transcript('test protocol');
 
-    mt.appendMessage(Uint8List.fromList(utf8.encode('some label')),
-        Uint8List.fromList(utf8.encode('some data')));
+    mt.appendMessage(utf8.encode('some label'), utf8.encode('some data'));
 
-    final cBytes =
-        mt.extractBytes(Uint8List.fromList(utf8.encode('challenge')), 32);
+    final cBytes = mt.extractBytes(utf8.encode('challenge'), 32);
 
     // d5a21972d0d5fe320c0d263fac7fffb8145aa640af6e9bca177c03c7efcf0615
     final cHex = hex.encode(cBytes);
@@ -27,7 +25,7 @@ void main() {
 
     final data = Uint8List(1024)..fillRange(0, 1024, 99);
 
-    late List<int> chlBytes;
+    late Uint8List chlBytes;
     for (var i = 0; i < 32; i++) {
       chlBytes = tr.extractBytes(utf8.encode('challenge'), 32);
       tr
